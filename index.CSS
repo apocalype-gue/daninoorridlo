@@ -1,0 +1,128 @@
+/* Reset dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Calibry", serif;
+    background-color: #f4f1ea;
+    color: #333;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #8b5e3c;
+    color: white;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Section */
+section {
+    align-items: center;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #fffaf0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #8b5e3c;
+    margin-bottom: 15px;
+}
+
+/* Katalog Produk */
+.produk-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.produk-item img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+.pesan-btn {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #25d366;
+    color: black;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.pesan-btn:hover {
+    background-color: #1ebe57;
+}
+
+/* Form Login */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, button {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #8b5e3c;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #a16d45;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #8b5e3c;
+    color: white;
+    border-radius: 8px;
+}

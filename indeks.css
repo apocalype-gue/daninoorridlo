@@ -1,0 +1,227 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#home h2{
+    background: #9A7E6F;
+    width: fit-content;
+    padding: 5px;
+    padding-inline: 15px;
+    border-radius: 5px;
+}
+#home{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+#home p{
+    font-size: x-large;
+    width: 50%;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #FFF1DB;
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.background{
+    background-image: url(bgvintageblur.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    z-index: -1;
+}
+.outletc div{
+    width: 25rem;
+}
+.outletc{
+    display: flex;
+    justify-content: space-between;
+}
+
+#iklan{
+    background-image: url(bgvintage.webp);
+    height: 45rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#iklan h1{
+    font-size: 5rem;
+    color: #D8D2C2;
+}
+#iklan p{
+    font-size: x-large;
+}
+/* Header Styling */
+header {
+    background-color: #D8D2C2;
+    color: #674636;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 5px;
+}
+nav{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    
+}
+nav img{
+    border-radius: 130%;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #674636;
+    text-decoration: none;
+    font-size: x-large;
+}
+
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2em;
+    color: #D8D2C2;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.1em;
+    margin: 10px 0;
+}
+
+/* Produk Section */
+.container-pd{
+    justify-content: center;
+    display: flex;
+
+}
+.product-item {
+    background-color: rgb(154 126 111 / 0.8);
+    padding: 20px;
+    margin: 10px;
+    display: inline-block;
+    width: 250px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.product-item img {
+    width: 12rem;
+    height: 15rem;
+    border-radius: 5px;
+}
+
+.whatsapp-button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #25D366;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.whatsapp-button i {
+    margin-right: 8px; 
+    font-size: 1.2em; 
+}
+/*layanan*/
+.container-layanan{
+    background-color: rgb(154 126 111 / 0.8);
+    width: fit-content;
+    padding: 4rem;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.harga{
+    color: #F87A53;
+}
+#layanan{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.minggu{
+    color:#F87A53;
+}
+#layanan h2{
+    background: #9A7E6F;
+    width: fit-content;
+    padding: 5px;
+    padding-inline: 15px;
+    border-radius: 5px
+}
+#produk h2{
+    background: #9A7E6F;
+    width: fit-content;
+    padding: 5px;
+    padding-inline: 15px;
+    border-radius: 5px;
+}
+#produk{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+/* Peta Lokasi */
+.map-container {
+    display: flex;
+    justify-content: center;
+}
+
+.map-container iframe {
+    width: 100%;
+    max-width: 800px;
+    height: 450px;
+    border: 0;
+    border-radius: 10px;
+}
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    font-size: 0.9em;
+}
